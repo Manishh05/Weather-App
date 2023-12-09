@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ), url(ilia-bronskiy-VBmHhP5mtMU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Card{
+    background-color: rgb(139, 139, 139);
+    color: #fff;
+    padding: 2em;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.Search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+   border: none;
+   border-radius: 28px;
+   color: #000000;
+   width: 100px;
+   height: 2em;
+   outline: none;
+   cursor: pointer;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    width: 260px ;
+    border-radius: 18px;
+    background-color: rgb(134, 134, 134);
+    color: #fff;
+    font-family: inherit;
+    font-size: 90%;
+    
+}
+
+placeholder{
+    color: #fff;
+}
